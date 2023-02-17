@@ -1,5 +1,42 @@
-h2{
+
+@media (min-width: 576px){
+  h2{
     margin-top: 2%;
     margin-bottom: 3%;
+    font-size: 180%;
+  }
+
+  .antecedentes{
+    font-size: 200%;
+  }
+
+  h5{
+    font-size: 150%;
+  }
+
+p{
+    text-align: justify;
 }
 
+}
+
+@media (max-width: 575px){
+    h2{
+      margin-top: 4%;
+      margin-bottom: 1em;
+      font-size: 130%;
+    }
+  
+    .antecedentes{
+      font-size: 140%;
+    }
+  
+    h5{
+      font-size: 100%;
+      margin-bottom: 6%;
+    }
+
+    p{
+        text-align: justify;
+    }
+  }

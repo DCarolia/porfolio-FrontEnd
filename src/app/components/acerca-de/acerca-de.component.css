@@ -1,0 +1,33 @@
+@media (min-width: 576px) {
+    #acerca-de{
+    font-size: 300%;
+    max-width: 96%;
+    margin: 23px auto;
+    overflow: auto;
+    padding: 30px;
+    text-align: justify;
+    }
+
+h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 120%;
+ }
+
+}
+
+@media (max-width: 575px) {
+    #acerca-de{
+        font-size: 130%;
+        max-width: 96%;
+        margin: 23px auto;
+        overflow: auto;
+        padding: 30px;
+        text-align: justify;
+    }
+    
+    h2{
+    font-size: 120%;
+    margin-bottom: 1em;
+    }
+}

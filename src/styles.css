@@ -34,7 +34,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 21px;
     font-family: inherit;
 }
 .btn:focus {
@@ -81,22 +81,4 @@ body{
 
 #edit{
     padding-left: 95%;
-}
-
-@media (max-width: 575px) {
-    p{
-        text-align: justify;
-    }
-
-    h2{
-        margin-top: 5%;
-        margin-bottom: 8%;
-    }
-}
-
-@media (min-width: 576px) {
-    h2{
-        margin-top: 2%;
-        margin-bottom: 3%;
-    }
 }

@@ -1,22 +1,19 @@
 #banner{
     border-radius: 10px;
+    height: 110%;
+    width: 100%;
 }
-
-.profile{
-    margin: -7% 3%;
-}
-
 
 .btn-info-profile{
-    margin-top: 7%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 5%;
     padding-left: 3%;
 }
 
 .container-fluid{
     max-width: 96%;
     overflow: auto;
-    min-height: 300px;
+    min-height: 200px;
     border-radius: 30px;
     border: 1px solid steelblue;
     background-color: rgb(203, 203, 229);
@@ -24,61 +21,76 @@
 
 .btn-primary{
     box-shadow: 5px 5px 10px;
+    font-size: 200%;
  }
 
  @media (min-width: 576px) {
 
     #img-profile{
-        width: 38%;
-        height: 83%;
         border-radius: 50%;
-        box-shadow: 5px 5px 15px;
-        margin-top: -1%;
+        box-shadow: 10px 5px 20px;
+        margin-top: -35%;
+        margin-left: 4%;
+        width: 28em;
     }
 
-    .name{
-        font-size: x-large;
-        margin-top: 5%;
-        margin-left: -28%;
+    .row{
+        padding: 2%;
     }
-}
+
+    #nombre{
+        padding-left: 3%;
+        margin-top: 3em;
+    }
+
+    h1{
+        font-size: 350%;
+    }
+
+    h2{
+        font-size: 280%;
+    }
+ }
 
   @media (max-width: 575px) {
     
-    #img-profile{
-     width: 48%;
-     height: 80%;
-     border-radius: 50%;
-     margin-top: -4%;
-     margin-left: 20%;
-     display: flex;
-     justify-content: center;
-     box-shadow: 5px 5px 15px;
-    }
-
-    .name{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    p{
-        margin-left: 2%;
-    }
-
     .btn-primary{
         margin-left: 11%;
         margin-right: -10%;
-        margin-bottom: 6%;
         width: 75%;
         height: 25%;
+        font-size: 130%;
     }
 
     .coteiner-fluid{
         margin-top: -5%;
     }
 
-}
+    #img-profile{
+        width: 48%;
+        border-radius: 50%;
+        margin-top: -10%;
+        margin-left: 24%;
+        display: flex;
+        justify-content: center;
+        box-shadow: 5px 5px 15px;
+       }
 
+    h1{
+        font-size: 150%;
+        margin-top: 3%;
+    }
 
+    p{
+        margin-bottom: -2em;
+        font-size: 115%;
+    }
 
+    #nombre{
+        padding: 20px;
+        margin: 25px auto;
+        text-align: center;
+        margin: -2%;
+    }
+
+  }
