@@ -69,7 +69,7 @@
     #img-profile{
         width: 48%;
         border-radius: 50%;
-        margin-top: -10%;
+        margin-top: -15%;
         margin-left: 24%;
         display: flex;
         justify-content: center;
@@ -91,6 +91,10 @@
         margin: 25px auto;
         text-align: center;
         margin: -2%;
+    }
+
+    #banner{
+        height: 8em;
     }
 
   }
