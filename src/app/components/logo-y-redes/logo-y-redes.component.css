@@ -21,6 +21,14 @@ button{
    height: 2.5em;
    border-radius: 15%;
 }
+
+
+@media (min-width: 576px) {
+   #logo{
+      width: 60%;
+      height: 60%;
+   }
+}
  
 @media (max-width: 415px) {
    button{
