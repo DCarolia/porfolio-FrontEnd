@@ -10,6 +10,7 @@ import { AppRoutingModuleTsModule } from './app-routing.module.ts/app-routing.mo
 import { LogoYRedesComponent } from './components/logo-y-redes/logo-y-redes.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
     AptitudesComponent,
     LogrosComponent,
     ExperienciaYEducacionComponent,
-    LogoYRedesComponent
+    LogoYRedesComponent,
+    FooterComponent
   ],
 
   imports: [
